@@ -2,6 +2,13 @@
    Leone Kitchen - Modern Bright Bakery Design
    ============================================ */
 
+/* Force override any old cached styles */
+body, html {
+    background-image: none !important;
+    background-color: #FFFFFF !important;
+    background-attachment: initial !important;
+}
+
 /* Reset & Base */
 *,
 *::before,
